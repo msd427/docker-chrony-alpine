@@ -1,7 +1,7 @@
-OWNER := fabianlee
+OWNER := msd427
 PROJECT := docker-chrony-alpine
 VERSION := 1.0.0
-OPV := $(OWNER)/$(PROJECT):$(VERSION)
+OPV := $(OWNER)/$(PROJECT):arm64v8
 EXPOSEDPORT := 123:123
 
 # linux capabilities
